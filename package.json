@@ -1,0 +1,18 @@
+{
+  "name": "smooth-landing",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "gsap": "^3.12.1",
+    "locomotive-scroll": "^5.0.0-beta.8",
+    "next": "13.4.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
