@@ -6,20 +6,20 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const projects = [
     {
-        title: "Swat Valley",
-        src: "m1.jpg"
+        title: "K2 Peak",
+        src: "k2peak.jpg"
     },
     {
-        title: "Valle de la luna",
-        src: "m2.jpg"
+        title: "Mount Everest",
+        src: "mteverest.jpg"
     },
     {
-        title: "Miscanti Lake",
-        src: "m3.jpg"
+        title: "Nanga Parbat",
+        src: "nanga1.jpg"
     },
     {
-        title: "Miniques Lagoons",
-        src: "m4.jpg"
+        title: "Kangchenjunga",
+        src: "kan.jpg"
     },
 ]
 
