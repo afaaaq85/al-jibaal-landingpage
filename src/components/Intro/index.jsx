@@ -40,7 +40,7 @@ export default function Index() {
       <div className={styles.intro}>
         <div ref={introImage} data-scroll data-scroll-speed="0.3" className={styles.introImage}>
           <Image
-            src={'/images/aljabal.jpg'}
+            src={'/images/intoimage.jpg'}
             alt="intro image"
             fill={true}
             priority={true}
