@@ -6,11 +6,11 @@ import { useLayoutEffect, useRef } from 'react'
 
 export default function index() {
   const phrases = [
-    "The majestic peaks of the Himalayas touch the sky.",
-    "Exploring the rugged terrain of the Rocky Mountains is a thrilling adventure.",
-    "Mountains are nature's silent giants, standing tall for millennia.",
-    "The view from the summit is worth every step of the climb.",
-    "Mountain air is pure and invigorating, a true breath of fresh air."
+    "Majestic Peaks",
+    "Rocky Mountains",
+    "Silent Giants",
+    "Slippy Climb",
+    "White Angels"
   ];
   
 
@@ -44,6 +44,6 @@ function AnimatedText({ children }) {
   }, [])
 
   return (
-    <p ref={text}>{children}</p>
+    <p className={styles.text} ref={text}>{children}</p>
   )
 }
