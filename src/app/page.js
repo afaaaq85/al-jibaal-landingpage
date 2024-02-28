@@ -7,11 +7,17 @@ import Projects from '../components/Projects';
 
 export default function Home() {
 
-  useEffect( () => {
+  useEffect(() => {
     (
       async () => {
           const LocomotiveScroll = (await import('locomotive-scroll')).default
-          const locomotiveScroll = new LocomotiveScroll();
+          const locomotiveScroll = new LocomotiveScroll({
+            // Adjust the speed parameter to decrease scrolling speed
+            smooth: true,
+            smoothMobile: false,
+            getSpeed: true,
+            speed: 0.1, // Adjust this value to decrease or increase speed
+          });
       }
     )()
   }, [])
@@ -24,4 +30,3 @@ export default function Home() {
       </main>
   )
 }
-
